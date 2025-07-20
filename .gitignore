@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Logs
+*.log
+colors.css
+
+# Development/planning files
+*_step*.py
+*_fixed.py
+*_simple.py
+async_test.py
+test.sh
+IMPLEMENTATION_COMPLETE.md
+RUST_MIGRATION_PLAN.md
+plan.md
+newfeatures.md
+SDBUS_NETWORKMANAGER_GUIDE.md
+HYPRLAND_INTEGRATION.md
+fuzzel_menus_old/
+CLAUDE.md

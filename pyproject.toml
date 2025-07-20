@@ -1,0 +1,15 @@
+[project]
+name = "waybar-popups"
+version = "0.1.0"
+description = "Custom GTK4 popup windows for Waybar with Material Design theming"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "PyGObject>=3.42.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "flake8",
+]
