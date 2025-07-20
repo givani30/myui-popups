@@ -12,7 +12,7 @@ import subprocess
 from pathlib import Path
 
 # Add current directory to path so we can import myui
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from widgets.myui import AppWindow, SliderRow, ToggleRow, ButtonRow, QuickApp
 
@@ -28,6 +28,7 @@ class VolumePopup(AppWindow):
             title="Volume Control",
             width=320,
             window_tag=window_tag,
+            close_on_focus_loss=True,
             **kwargs
         )
         

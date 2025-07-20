@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 from gi.repository import Gtk, GLib
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 from widgets.myui import (AppWindow, SliderRow, ButtonRow, InfoRow, ToggleRow, 
                          ProgressRow, ListWidget, TabWidget, LoadingWidget, QuickApp)
 

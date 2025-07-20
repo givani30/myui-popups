@@ -13,7 +13,7 @@ import shutil
 from pathlib import Path
 
 # Add current directory to path so we can import myui
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from widgets.myui import AppWindow, InfoRow, ProgressRow, ButtonRow
 from widgets.myui.base_window import QuickApp

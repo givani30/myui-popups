@@ -13,7 +13,7 @@ gi.require_version('Gtk', '4.0')
 from gi.repository import Gtk, GLib
 
 # Add current directory to path so we can import myui
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from widgets.myui import AppWindow, QuickApp, ListWidget, LoadingWidget, ButtonRow, ToggleRow, InfoRow, run_async
 

@@ -11,8 +11,8 @@ import sys
 import subprocess
 from pathlib import Path
 
-# Add current directory to path so we can import myui
-sys.path.insert(0, str(Path(__file__).parent))
+# Add project root to path so we can import widgets
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from widgets.myui.components.widgets import SliderRow, ToggleRow
 from widgets.myui import AppWindow  
