@@ -317,6 +317,8 @@ myui-popups/
 │   ├── theming.py              # CSS theming system
 │   ├── async_utils.py          # Threading utilities
 │   └── components/widgets.py    # All widget classes
+├── docs/                        # Documentation
+│   └── WIDGET_DEVELOPMENT.md    # Widget development guide
 ├── images/                      # Screenshots and assets
 │   ├── brightness_popup.png     # Brightness control demo
 │   └── volume_popup.png         # Volume control demo
@@ -333,15 +335,23 @@ myui-popups/
 - **Bluetooth** (for bluetooth popup)
 - **systemd** (optional, for daemon service)
 
+## 📖 Documentation
+
+- **[Widget Development Guide](docs/WIDGET_DEVELOPMENT.md)** - Complete guide to creating custom widgets and popups
+- **[Theming Documentation](docs/THEMING.md)** - Styling and color system guide *(coming soon)*
+- **[Troubleshooting Guide](docs/TROUBLESHOOTING.md)** - Common issues and solutions *(coming soon)*
+
 ## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-widget`
-3. Implement your changes with proper error handling
-4. Test with `python3 widget_showcase.py`
-5. Submit a pull request
+3. Read the [Widget Development Guide](docs/WIDGET_DEVELOPMENT.md) for implementation patterns
+4. Implement your changes with proper error handling
+5. Test with `python3 popups/widget_showcase.py`
+6. Submit a pull request
 
 ### Widget Development Guidelines
+- Follow the patterns in the [development guide](docs/WIDGET_DEVELOPMENT.md)
 - Inherit from appropriate GTK base classes
 - Add CSS classes for consistent theming
 - Use callback patterns for user interactions
