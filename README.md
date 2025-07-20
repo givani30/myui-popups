@@ -6,6 +6,17 @@ A GTK4-based popup system for Waybar integration, featuring the custom **MyUI to
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GTK4](https://img.shields.io/badge/GTK-4.0+-green.svg)](https://gtk.org/)
 
+## 📸 Screenshots
+
+<div align="center">
+
+| Brightness Control | Volume Control |
+|-------------------|----------------|
+| ![Brightness Popup](images/brightness_popup.png) | ![Volume Popup](images/volume_popup.png) |
+| Display brightness with theme toggle | Audio control with mute and presets |
+
+</div>
+
 ## ✨ Features
 
 - **🚀 Dual Launch Methods**: Direct execution or optional manager daemon
@@ -306,6 +317,9 @@ myui-popups/
 │   ├── theming.py              # CSS theming system
 │   ├── async_utils.py          # Threading utilities
 │   └── components/widgets.py    # All widget classes
+├── images/                      # Screenshots and assets
+│   ├── brightness_popup.png     # Brightness control demo
+│   └── volume_popup.png         # Volume control demo
 ├── examples/                    # Additional examples
 └── pyproject.toml              # Project metadata
 ```
